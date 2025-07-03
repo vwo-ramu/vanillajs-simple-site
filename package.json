@@ -6,14 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "sass": "^1.72.0",
     "typescript": "^5.2.2",
     "vite": "^5.2.6"
   },
   "dependencies": {
     "@picocss/pico": "^2.0.6"
-  }
+  },
+  "homepage": "https://vwo-ramu.github.io/vanillajs-simple-site/"
 }
